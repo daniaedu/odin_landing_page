@@ -43,10 +43,18 @@ header .logo {
     color: #F9FAF8;
 }
 
-/* Navigation links styling */
-header .header-nav-ul * {
+/* Navigation links and hero styling */
+header .header-nav-ul *,
+header .hero-container p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Header hero main text */
+header .hero-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 /* Flexbox layout for the header navigation */
@@ -61,3 +69,23 @@ header .header-nav-ul * {
     display: flex;
     gap: 10px;
 }
+
+/* Flexbox layout for the header hero container */
+header .hero-container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero sections styling */
+.hero-left, 
+.hero-right {
+    width: 50%;
+}
+
+/* Hero styling for right section */
+.hero-right p {
+    text-align: center;
+}
+
