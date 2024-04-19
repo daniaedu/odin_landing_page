@@ -28,7 +28,7 @@ body {
 }
 
 /*****************************************************************
-                    Header
+                            Header
 *****************************************************************/
 
 /* Header styles */
@@ -75,7 +75,7 @@ header .hero-container {
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 /* Hero sections styling */
@@ -86,6 +86,54 @@ header .hero-container {
 
 /* Hero styling for right section */
 .hero-right p {
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+/*****************************************************************
+                    Random Information
+*****************************************************************/
+
+/* Flexbox layout and styling for random section */
+.random-section {
+    flex: 1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Flexbox layout for random section container */
+.random-section-content {
+    display: flex;
+    gap: 10px;
+}
+
+/* Flexbox layout and styling for random item */
+.random-section-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Random image styling */
+.random-image {
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+/* Random text styling */
+.random-text {
     text-align: center;
 }
 
