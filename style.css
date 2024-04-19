@@ -31,3 +31,33 @@ body {
                     Header
 *****************************************************************/
 
+/* Header styles */
+header {
+    background-color: #1F2937;
+    padding: 20px 50px;
+}
+
+/* Logo styling */
+header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Navigation links styling */
+header .header-nav-ul * {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Flexbox layout for the header navigation */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Flexbox layout for the header navigation ul */
+.header-nav-ul {
+    display: flex;
+    gap: 10px;
+}
