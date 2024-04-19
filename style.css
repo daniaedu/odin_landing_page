@@ -211,3 +211,21 @@ button {
 .call-to-action-section button {
     border: 2px solid white;
 }
+
+/*****************************************************************
+                   Footer
+*****************************************************************/
+
+/* Flexbox layout and styling for footer */
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer paragraph styling */
+footer p {
+    color: #E5E7EB;
+}
