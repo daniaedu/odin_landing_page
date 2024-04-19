@@ -84,9 +84,17 @@ header .hero-container {
     width: 50%;
 }
 
+/* Flexbox layout and styling for right hero section */
+.hero-right {
+    background-color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Hero styling for right section */
-.hero-right p {
-    text-align: center;
+div .hero-right p {
+    color: black;
 }
 
 /* Button styling */
